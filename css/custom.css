@@ -107,6 +107,16 @@
 .hero-row > .mouse {
     display: inline-block;
 }
+.hero-row form > input {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border-bottom-color: white;
+}
+.hero-row form > input::placeholder {
+    color: white;
+}
+
 
 /* MAIN CONTENT */
 .content h2 {
